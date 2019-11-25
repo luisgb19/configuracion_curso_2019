@@ -11,7 +11,7 @@ zuul:
         serviceId: cliente-personas
       servicio-reservas-luis: # Service to create as sample
         path: /reservas/** #path that will be intercepted
-      servicio-heteles-luis: # Service to create as sample
+      servicio-hoteles-luis: # Service to create as sample
         path: /hoteles/** #path that will be intercepted
       servicio-vuelos-luis: # Service to create as sample
         path: /vuelos/** #path that will be intercepted
