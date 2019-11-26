@@ -2,6 +2,7 @@ server:
   port: 7000 #puerto del zuul service 
 zuul:
   ignoredServices: '*'
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
   routes:
       servicio-personas: # Service to create as sample
         path: /personas/** #path that will be intercepted
